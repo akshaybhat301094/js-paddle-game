@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+      }
+      #gameScreen {
+        border: 1px solid black;
+      }
+      img {
+        display: none;
+      }
+    </style>
+    <title>Javascript game</title>
+  </head>
+  <body>
+    <img src="assets/images/ball.png" alt="ball" id="img_ball" />
+    <img src="assets/images/brick.png" alt="brick" id="img_brick" />
+
+    <div class="container">
+      <canvas id="gameScreen" width="800" height="600"></canvas>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
